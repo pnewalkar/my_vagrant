@@ -1,6 +1,6 @@
 # Introduction
 
-This project will set you up with a developer virtual machine using Vagrant with provisioning for the DotCom site.
+This project will set you up with a virtual machine using Vagrant.
 
 # Prerequisites
 
@@ -16,33 +16,21 @@ It is always advisable to run the latest versions of both.
  
 - Create a new directory for the vagrant box:
   ```
-  mkdir -p ~/eurostar/vagrant && cd ~/eurostar/vagrant
+  mkdir -p ~/vagrant && cd ~/vagrant
   ```
 
-  
-- Acquire a copy of the project: via git clone
+  - Acquire a copy of the project: via git clone
 
   You can acquire the vagrant project direct via git (including submodules) recursively:
 
   ```shell
   git clone \
     --branch dev \
-        git@github.com:EurostarDigital/eurostar_vagrant.git \
+        git@github.com:pnewalkar/my_vagrant.git \
         --recursive
   ```
 
-- (optional) create / modify your local config file
-
-  You can run at any time the `configure` script to create you a new `local.config.yaml` file or to help you edit your settings:
-
-  ```bash
-    ./configure
-  ```
-
-  If you have an existing `local.config.yaml` it will UPDATE not overwrite your local config.
-
-
-- Start the vagrant up process (to lauch the vm): 
+  - Start the vagrant up process (to lauch the vm): 
 
   ```bash
   vagrant up --provider=virtualbox
