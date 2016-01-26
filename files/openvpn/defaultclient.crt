@@ -1,0 +1,73 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 2 (0x2)
+        Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C=UK, ST=UK, L=London, O=Capgemini UK, OU=TEST, CN=Capgemini UK CA/name=DSS/emailAddress=vpn@test.dssproj.com
+        Validity
+            Not Before: Feb 28 16:26:26 2012 GMT
+            Not After : Feb 25 16:26:26 2022 GMT
+        Subject: C=UK, ST=UK, L=London, O=Capgemini UK, OU=TEST, CN=defaultclient/name=DSS/emailAddress=vpn@test.dssproj.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (1024 bit)
+                Modulus:
+                    00:e3:ee:5f:eb:d0:de:7f:a0:5f:4c:55:c3:c0:ee:
+                    c4:fa:ee:25:12:cb:52:a3:c7:e6:fd:20:66:4e:72:
+                    ca:69:64:71:97:d5:48:9f:5d:1e:7e:bc:cc:b9:96:
+                    b6:cc:66:c1:00:4d:c0:f7:de:c9:82:8b:13:58:da:
+                    58:f9:02:48:16:94:3b:48:11:d6:6c:db:ea:4f:44:
+                    57:22:90:c9:fd:2f:99:69:fe:52:77:48:a1:9c:5a:
+                    bc:20:55:3d:11:a4:5c:87:83:56:67:ef:d5:91:5f:
+                    ff:00:15:18:ac:75:2d:35:37:4f:b8:13:5a:52:1f:
+                    ac:d5:bd:f8:cf:fb:2f:e2:e7
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Comment: 
+                Easy-RSA Generated Certificate
+            X509v3 Subject Key Identifier: 
+                2B:4D:12:04:96:F8:D8:D4:EC:3F:E1:1F:4E:62:40:E3:39:2B:FE:FA
+            X509v3 Authority Key Identifier: 
+                keyid:EC:4B:1B:46:95:5E:43:B7:CD:61:94:23:4F:24:F9:43:F3:12:13:62
+                DirName:/C=UK/ST=UK/L=London/O=Capgemini UK/OU=TEST/CN=Capgemini UK CA/name=DSS/emailAddress=vpn@test.dssproj.com
+                serial:92:1F:17:39:CC:AC:0F:65
+
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication
+            X509v3 Key Usage: 
+                Digital Signature
+    Signature Algorithm: sha1WithRSAEncryption
+        6c:cd:f6:9c:8d:96:b7:63:06:df:53:b5:4d:bd:1d:c1:d7:0a:
+        29:c7:37:d3:b1:5e:48:05:c1:1d:87:fe:75:ad:6b:65:b4:0f:
+        61:d8:6c:bb:c7:1e:90:36:80:58:c4:2e:02:81:8d:92:c1:ff:
+        8d:c8:71:2d:85:76:ce:59:97:b9:32:8b:2d:74:8c:30:a6:cf:
+        a1:db:80:30:4c:71:3f:9f:df:a4:6d:a0:65:05:53:2f:0d:45:
+        b1:52:e0:e4:61:0e:3a:cd:14:9a:43:cf:9a:76:c8:5d:5d:32:
+        7f:61:24:0f:19:1f:ff:1b:10:08:fa:1d:19:4f:db:16:0c:55:
+        3c:b6
+-----BEGIN CERTIFICATE-----
+MIIECTCCA3KgAwIBAgIBAjANBgkqhkiG9w0BAQUFADCBnjELMAkGA1UEBhMCVUsx
+CzAJBgNVBAgTAlVLMQ8wDQYDVQQHEwZMb25kb24xFTATBgNVBAoTDENhcGdlbWlu
+aSBVSzENMAsGA1UECxMEVEVTVDEYMBYGA1UEAxMPQ2FwZ2VtaW5pIFVLIENBMQww
+CgYDVQQpEwNEU1MxIzAhBgkqhkiG9w0BCQEWFHZwbkB0ZXN0LmRzc3Byb2ouY29t
+MB4XDTEyMDIyODE2MjYyNloXDTIyMDIyNTE2MjYyNlowgZwxCzAJBgNVBAYTAlVL
+MQswCQYDVQQIEwJVSzEPMA0GA1UEBxMGTG9uZG9uMRUwEwYDVQQKEwxDYXBnZW1p
+bmkgVUsxDTALBgNVBAsTBFRFU1QxFjAUBgNVBAMTDWRlZmF1bHRjbGllbnQxDDAK
+BgNVBCkTA0RTUzEjMCEGCSqGSIb3DQEJARYUdnBuQHRlc3QuZHNzcHJvai5jb20w
+gZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAOPuX+vQ3n+gX0xVw8DuxPruJRLL
+UqPH5v0gZk5yymlkcZfVSJ9dHn68zLmWtsxmwQBNwPfeyYKLE1jaWPkCSBaUO0gR
+1mzb6k9EVyKQyf0vmWn+UndIoZxavCBVPRGkXIeDVmfv1ZFf/wAVGKx1LTU3T7gT
+WlIfrNW9+M/7L+LnAgMBAAGjggFVMIIBUTAJBgNVHRMEAjAAMC0GCWCGSAGG+EIB
+DQQgFh5FYXN5LVJTQSBHZW5lcmF0ZWQgQ2VydGlmaWNhdGUwHQYDVR0OBBYEFCtN
+EgSW+NjU7D/hH05iQOM5K/76MIHTBgNVHSMEgcswgciAFOxLG0aVXkO3zWGUI08k
++UPzEhNioYGkpIGhMIGeMQswCQYDVQQGEwJVSzELMAkGA1UECBMCVUsxDzANBgNV
+BAcTBkxvbmRvbjEVMBMGA1UEChMMQ2FwZ2VtaW5pIFVLMQ0wCwYDVQQLEwRURVNU
+MRgwFgYDVQQDEw9DYXBnZW1pbmkgVUsgQ0ExDDAKBgNVBCkTA0RTUzEjMCEGCSqG
+SIb3DQEJARYUdnBuQHRlc3QuZHNzcHJvai5jb22CCQCSHxc5zKwPZTATBgNVHSUE
+DDAKBggrBgEFBQcDAjALBgNVHQ8EBAMCB4AwDQYJKoZIhvcNAQEFBQADgYEAbM32
+nI2Wt2MG31O1Tb0dwdcKKcc307FeSAXBHYf+da1rZbQPYdhsu8cekDaAWMQuAoGN
+ksH/jchxLYV2zlmXuTKLLXSMMKbPoduAMExxP5/fpG2gZQVTLw1FsVLg5GEOOs0U
+mkPPmnbIXV0yf2EkDxkf/xsQCPodGU/bFgxVPLY=
+-----END CERTIFICATE-----
